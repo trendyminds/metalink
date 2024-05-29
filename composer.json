@@ -1,0 +1,36 @@
+{
+    "name": "trendyminds/metalink",
+    "description": "Pull OpenGraph data from a URL and store it in a Statamic fieldtype",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.2",
+        "statamic/cms": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trendyminds\\Metalink\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Metalink",
+            "description": "Metalink addon"
+        },
+        "laravel": {
+            "providers": [
+                "Trendyminds\\Metalink\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.16"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    }
+}
