@@ -6,7 +6,7 @@
 				class="flex-1"
 				placeholder="https://example.com"
 			/>
-			<button class="btn" type="submit">Save</button>
+			<button class="btn" type="submit">Fetch</button>
 		</form>
 
 		<div class="card text-center py-4 mt-4" v-if="status === 'loading'">
