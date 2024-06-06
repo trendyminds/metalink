@@ -1,11 +1,12 @@
 {
     "name": "trendyminds/metalink",
     "description": "Pull OpenGraph data from a URL and store it in a Statamic fieldtype",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "statamic/cms": "^5.0"
+        "statamic/cms": "^5.0",
+        "symfony/dom-crawler": "^7.1"
     },
     "autoload": {
         "psr-4": {
